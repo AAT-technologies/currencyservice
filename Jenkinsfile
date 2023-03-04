@@ -9,7 +9,7 @@ pipeline {
           sh ''' sudo docker system prune -af
           '''
          
-         sh ''' cd app/currencyservice
+         sh ''' cd app-currency/currencyservice
                    ls
                    sudo docker build -t delalixx/currencyservice .
                    sudo docker push delalixx/currencyservice
