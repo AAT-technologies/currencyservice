@@ -47,7 +47,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: delalixx/currencyservice:latest
+        image: delalixx/currencyservice:v1
         ports:
         - name: grpc
           containerPort: 7000
